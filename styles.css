@@ -1,0 +1,245 @@
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+body{
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background: url("img/gtx.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: textFont;
+    src: url("font/ARLRDBD.TTF");
+}
+
+.webContainer{
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.topBar{
+    height: 7vh;
+    background: black;
+}
+
+#cart{
+    max-height: 7vh;
+    max-width: 4vw;
+}
+
+.bannerHeight{
+    height: 16vh;
+}
+
+.banner{
+    background: black;
+    bottom: 11vh;
+}
+
+.banner p{
+    font-family: textFont;
+    text-align: center;
+    font-size: 12vh;
+    color: white;
+}
+
+.buttonCol{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.topButton{
+    border-right: solid medium black;
+    border-left: solid medium black;
+    border-bottom: solid medium black;
+}
+
+.topButton p{
+    font-size: 5vh;
+    color: black;
+}
+
+#currentPage{
+    background: black;
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 40px;
+}
+
+.content{
+    height: 60vh;
+}
+
+.content p{
+    color: white;
+    font-family: textFont;
+}
+
+#gfx{
+    max-height: 40vh;
+    max-width: 35vw;
+    position: absolute;
+    transform: translate(600px, -100px);
+}
+
+#stats{
+    max-height: 40vh;
+    max-width: 35vw;
+    position: absolute;
+    transform: translate(150px, 100px);
+}
+
+#fourk{
+    max-height: 40vh;
+    max-width: 35vw;
+    position: absolute;
+    transform: translate(1100px, 100px);
+}
+
+#about{
+    font-size: 2vh;
+}
+
+.pad{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.gfxSq{
+    max-height: 26vh;
+    max-width: 14vw;
+    display: block;
+    margin: auto;
+}
+
+.breaker{
+    margin-top: 50px;
+}
+
+.infoText{
+    color: white;
+    font-size: 1.4vh;
+}
+
+.bigSq{
+    max-height: 60vh;
+    max-width: 30vw;
+    display: block;
+    margin: auto;
+}
+
+.cartSq{
+    max-height: 20vh;
+    max-width: 10vw;
+    display: block;
+    margin: auto;
+}
+
+#cartTitle{
+    font-size: 3vh;
+}
+
+.border{
+    border-bottom: gray solid 2px;
+    border-top: gray solid 2px;
+}
+
+#subText{
+    font-size: 1.1vh;
+}
+
+#checkoutButton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    background: #1f2226;
+    border-radius: 10px;
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    border: black solid 2px;
+}
+
+#checkoutButton p{
+    line-height: 5vh;
+    color: white;
+}
+
+.inputBar{
+    background: #1f2226;
+    border-color: black;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.barFont p{
+    line-height: 4vh;
+}
+
+#payText{
+    text-align: center;
+    font-size: 2vh;
+}
+
+.botBar{
+    background: black;
+    height: 5vh;
+    bottom: 0;
+    position: absolute;
+    width: 101vw;
+}
+
+#payImg{
+    max-height: 10vh;
+    max-width: 20vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#completeButton{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(90%, 0%);
+    background: #1f2226;
+    border-radius: 10px;
+    height: 8vh;
+    width: 20vw;
+    text-align: center;
+    border: black solid 2px;
+}
+
+#completeButton p{
+    font-size: 4vh;
+    line-height: 8vh;
+}
+
+.botBar p{
+    color: white;
+    line-height: 4vh;
+    font-size: 2vh;
+    text-align: center;
+}
